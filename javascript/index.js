@@ -5,7 +5,11 @@ window.onload = function () {
   var rowCount = Math.sqrt(cellCount);
   var cellWidth = container.offsetHeight / rowCount - cellSpace * 2;
 
-  var positionRecords = new Array(cellCount - 1).fill("").map((v, i) => i + 1);
+  var positionRecords = [];
+  for(var i = 1; i < cellCount; i++){
+    positionRecords.push(i);
+  }
+  
   positionRecords.push("whiteCell");
 
   function getPosition(index) {
