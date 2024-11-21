@@ -1,6 +1,6 @@
 # 小游戏-数字华容道
 
-<img src="./sources/game.png" style="zoom:25%;" />
+<img src="./sources/game.png" width=100 />
 
 数字华容道这款游戏曾经出现在江苏卫视真人秀节目“最强大脑”。
 
